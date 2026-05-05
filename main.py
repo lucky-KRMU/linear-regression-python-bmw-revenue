@@ -21,6 +21,17 @@ bmw_year = [2006, 2007, 2008, 2009, 2010, 2011,
             ]
 
 
+# For the last 5 years
+
+# bmw_revenue = [
+#     111.24, 142.61, 155.50, 142.38, 133.45
+# ]
+
+# bmw_year = [
+#     2021, 2022, 2023, 2024, 2025
+# ]
+
+
 
 # Initializing the values
 Y_values = bmw_revenue
