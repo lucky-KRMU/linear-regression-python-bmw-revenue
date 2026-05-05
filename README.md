@@ -61,4 +61,3 @@ Because the data is centered ($\sum X = 0$), the standard regression formulas ar
 
 ## 📝 Note on Data
 The script includes a commented-out section for a "5-year short-term analysis." You can toggle between the long-term trend (20 years) and short-term trend (5 years) by commenting/uncommenting the respective `bmw_revenue` and `bmw_year` blocks.
-```
