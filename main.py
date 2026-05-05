@@ -25,3 +25,22 @@ bmw_year = [2006, 2007, 2008, 2009, 2010, 2011,
 # Initializing the values
 Y_values = bmw_revenue
 X_values = bmw_year
+
+
+
+# finding out the value of n
+n = len(X_values)
+print(n)
+# making the values of X
+mid_term = 0
+
+if n%2 == 0:
+    mid_term = (X_values[int(n//2)-1] + X_values[(int(n//2))]) / 2
+else:
+    mid_term = X_values[int(n//2)]
+
+
+X_values = [(x-mid_term) for x in X_values]
+
+print(mid_term)
+print(X_values, sum(X_values))
