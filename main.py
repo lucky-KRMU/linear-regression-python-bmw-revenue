@@ -54,3 +54,20 @@ sigma_x = sum(X_values)
 
 sigma_xy = sum([x*y for x,y in zip(X_values, Y_values)])
 sigma_s_sqrt = sum([x**2 for x in X_values])
+
+
+
+# Finding the actual values
+
+# Since the value of sigmaX = 0
+# b = ((n*sigma_xy)-(sigma_x*sigma_y))/((n*sigma_s_sqrt)-(sigma_x**2))
+# a = (sigma_y-(b*sigma_x))/n
+
+# The updated formula
+b = sigma_xy/sigma_s_sqrt
+a = sigma_y/n
+
+
+
+# the main equation
+y = a + (b * x)
