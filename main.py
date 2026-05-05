@@ -71,3 +71,19 @@ a = sigma_y/n
 
 # the main equation
 y = a + (b * x)
+
+
+print(f"y = {a} + {b}x")
+
+
+
+print(n,sigma_x, sigma_y, sigma_xy)
+
+
+# Now finding the expected sales for the year 2026
+
+x = 2026 - mid_term
+y = a + (b * x)
+
+print(f"The expected sales for the year 2026 is {y} Billion Euroes")
+
