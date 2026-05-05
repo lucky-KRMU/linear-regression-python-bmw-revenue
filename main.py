@@ -44,3 +44,13 @@ X_values = [(x-mid_term) for x in X_values]
 
 print(mid_term)
 print(X_values, sum(X_values))
+
+
+
+
+# Required Parameters
+sigma_y = sum(Y_values)
+sigma_x = sum(X_values)
+
+sigma_xy = sum([x*y for x,y in zip(X_values, Y_values)])
+sigma_s_sqrt = sum([x**2 for x in X_values])
